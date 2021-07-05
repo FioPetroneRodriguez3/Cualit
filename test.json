@@ -1,0 +1,28 @@
+{
+ "src_folders" : ["./src/tests"],
+ "output_folder" : "./logs/",
+ "selenium" : {
+  "start_process" : false,
+  "log_path" : "./logs/"
+ }, 
+ "test_settings" : {
+  "default" : {
+   "launch_url" : "http:testeandosoftware.com",
+   "selenium_host" : "127.0.0.1",
+   "selenium_port" : 4444,
+   "silent": true,
+   "screenshots" : {
+    "enabled" : false,
+    "path" : "./screenshots/"
+    }
+   }
+ },
+
+  "selenium" : {
+ "start_process" : true,
+ "server_path" : "./lib/selenium-server-standalone-2.43.1.jar",
+ "log_path" : "./logs/",
+ "host" : "127.0.0.1",
+ "port" : 4444
+ },
+}
